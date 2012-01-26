@@ -1,3 +1,24 @@
+let g:tlist_javascript_settings = 'javascript;s:string;a:array;o:object;f:function'
+let g:JSLintHighlightErrorLine = 1
+filetype plugin on
+let $JS_CMD='node'
+
+if has("gui_running")
+    color ir_black
+else
+    color tir_black
+endif
+
+set mouse=a
+set ttymouse=xterm
+
+set title
+
+:let NERDTreeQuitOnOpen = 1
+set t_kN=[6;*~
+set t_kP=[5;*~
+set nocp
+
 set shiftwidth=4
 set softtabstop=4
 
@@ -15,5 +36,3 @@ if &term =~ "xterm"
   endif
 endif
 
-
-colorscheme ir_black
