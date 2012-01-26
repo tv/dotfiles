@@ -1,0 +1,6 @@
+startup_message off
+
+hardstatus alwayslastline
+hardstatus string '%{= kG}%{= W}%c:%s%{-} %= %= %{= kw}%?%-Lw%?%{+b r}[%{-b W}%n*%f%t%?(%u)%?%{+b r}]%{-b w}%?%+Lw%?%?'
+
+source .screenrc.local
