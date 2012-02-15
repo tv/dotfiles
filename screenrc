@@ -4,4 +4,8 @@ hardstatus alwayslastline
 #hardstatus string '%{= kG}%{= W}%c:%s%{-} %= %= %{= kw}%?%-Lw%?%{+b r}[%{-b W}%n*%f%t%?(%u)%?%{+b r}]%{-b w}%?%+Lw%?%?'
 hardstatus string '%{= kR}%H %{= W}%c %d/%m %{= kw}%?%-Lw%?%{= kR}[%{-b W}%n*%f%t%?(%u)%?%{.kR}]%{-b w}%?%+Lw%?%?'
 
+autodetach on
+
+defbce "on"
+attrcolor b ".I"
 source .screenrc.local
