@@ -22,6 +22,12 @@ set nocp
 set shiftwidth=4
 set softtabstop=4
 
+
+augroup objective-j
+    au! BufRead,BufNewFile *.j set filetype=objective-j
+    au! Syntax objective-j source ~/.janus/syntax/objj.vim
+augroup END
+
 ""if &term =~ "xterm"
   "256 color --
 "  let &t_Co=256
