@@ -42,7 +42,8 @@ end
 -- Themes define colours, icons, and wallpapers
 --beautiful.init("/usr/share/awesome/themes/default/theme.lua")
 
-beautiful.init("/home/tv/.config/awesome/zenburn/theme.lua")
+beautiful.init( awful.util.getdir("config") .. "/themes/awesome-solarized/dark/theme.lua" )
+
 
 -- This is used later as the default terminal and editor to run.
 -- terminal = "x-terminal-emulator"

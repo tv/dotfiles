@@ -33,6 +33,8 @@ plugins=(git)
 
 DISABLE_AUTO_UPDATE="true"
 
+ZSH_THEME="blinks"
+
 if [[ -e $HOME/.zshrc.local ]] source $HOME/.zshrc.local
 
 source $ZSH/oh-my-zsh.sh
