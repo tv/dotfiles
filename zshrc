@@ -31,6 +31,8 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
+DISABLE_AUTO_UPDATE="true"
+
 if [[ -e $HOME/.zshrc.local ]] source $HOME/.zshrc.local
 
 source $ZSH/oh-my-zsh.sh
