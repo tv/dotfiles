@@ -1,2 +1,3 @@
-PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-MANPATH="/opt/local/share/man:$MANPATH"
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH:/Developer/Android-SDK/tools:/Developer/Android-SDK/platform-tools"
+export MANPATH="/opt/local/share/man:$MANPATH"
+export NODE_PATH="/usr/local/lib/jsctags/:/opt/local/lib/node:$NODE_PATH"
