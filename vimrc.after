@@ -23,3 +23,5 @@ augroup objective-j
     au! BufRead,BufNewFile *.j set filetype=objective-j
     au! Syntax objective-j source ~/.janus/syntax/objj.vim
 augroup END
+
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
