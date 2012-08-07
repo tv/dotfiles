@@ -24,4 +24,15 @@ augroup objective-j
     au! Syntax objective-j source ~/.janus/syntax/objj.vim
 augroup END
 
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_custom_ignore = {
+\ 'dir':  '\.git$\|\.hg$\|\.svn$\|node_modules\|git\|DS_Store',
+\ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
+\ }
+noremap  <Up> ""
+noremap! <Up> <Esc>
+noremap  <Down> ""
+noremap! <Down> <Esc>
+noremap  <Left> ""
+noremap! <Left> <Esc>
+noremap  <Right> ""
+noremap! <Right> <Esc>
