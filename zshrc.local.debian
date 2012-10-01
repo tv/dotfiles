@@ -3,3 +3,10 @@ export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 # Setup vault
 export VAULT_PATH="$HOME/Dropbox/.vault"
 if [[ -f $HOME/.vaultkey ]] source $HOME/.vaultkey
+
+# Set Sencha-compiler path
+#alias sencha="/opt/SenchaSDKTools-2.0.0-beta3/sencha"
+#zstyle :omz:plugins:ssh-agent agent-forwarding on:w
+
+zstyle :omz:plugins:ssh-agent agent-forwarding on
+zstyle :omz:plugins:ssh-agent id_rsa
