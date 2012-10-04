@@ -35,6 +35,8 @@ DISABLE_AUTO_UPDATE="true"
 
 ZSH_THEME="blinks"
 
+export EDITOR="vim"
+
 if [[ -f $HOME/.zshrc.local || -h $HOME/.zshrc.local ]] source $HOME/.zshrc.local
 
 source $ZSH/oh-my-zsh.sh
