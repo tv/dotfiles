@@ -35,11 +35,13 @@ DISABLE_AUTO_UPDATE="true"
 
 ZSH_THEME="blinks"
 
-export EDITOR="vim"
+export EDITOR="vim -f"
 
 if [[ -f $HOME/.zshrc.local || -h $HOME/.zshrc.local ]] source $HOME/.zshrc.local
 
 if [[ -f $HOME/nvm/nvm.sh ]] . $HOME/nvm/nvm.sh
+if [[ -d $HOME/.bin ]] export PATH="$HOME/.bin:$PATH"
+if [[ -d $HOME/bin ]] export PATH="$HOME/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
