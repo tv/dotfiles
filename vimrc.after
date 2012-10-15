@@ -1,6 +1,7 @@
 let g:tlist_javascript_settings = 'javascript;s:string;a:array;o:object;f:function'
 let g:JSLintHighlightErrorLine = 1
 let g:ctrlp_root_markers = ['.ctrlp']
+
 filetype plugin on
 let $JS_CMD='node'
 
@@ -19,11 +20,6 @@ set nocp
 
 set shiftwidth=4
 set softtabstop=4
-
-augroup objective-j
-    au! BufRead,BufNewFile *.j set filetype=objective-j
-    au! Syntax objective-j source ~/.janus/syntax/objj.vim
-augroup END
 
 let g:ctrlp_custom_ignore = {
 \ 'dir':  '\.git$\|\.hg$\|\.svn$\|node_modules\|git\|DS_Store',
