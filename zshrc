@@ -39,6 +39,8 @@ export EDITOR="vim"
 
 if [[ -f $HOME/.zshrc.local || -h $HOME/.zshrc.local ]] source $HOME/.zshrc.local
 
+if [[ -f $HOME/nvm/nvm.sh ]] . $HOME/nvm/nvm.sh
+
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
