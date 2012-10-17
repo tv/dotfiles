@@ -18,13 +18,20 @@ set t_kN=[6;*~
 set t_kP=[5;*~
 set nocp
 
+" 4 spaces indent
 set shiftwidth=4
 set softtabstop=4
 
+" Clean ^m and trailing whitespaces
+autocmd FileType c,cpp,java,php,js,python,twig,xml,yml autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
+
+" Ignore node_modules and stuff
 let g:ctrlp_custom_ignore = {
 \ 'dir':  '\.git$\|\.hg$\|\.svn$\|node_modules\|git\|DS_Store',
 \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
 \ }
+
+" Disable arrow keys
 noremap  <Up> ""
 noremap! <Up> <Esc>
 noremap  <Down> ""
