@@ -6,6 +6,7 @@ filetype plugin on
 let $JS_CMD='node'
 
 set background=dark
+let g:solarized_termtrans = 1
 colorscheme solarized
 
 set mouse=a
