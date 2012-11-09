@@ -32,6 +32,9 @@ let g:ctrlp_custom_ignore = {
 \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
 \ }
 
+set undofile
+set undodir=~/.vimundo/
+
 " Disable arrow keys
 noremap  <Up> ""
 noremap! <Up> <Esc>
