@@ -7,3 +7,6 @@
 [submodule "config/awesome/submodules/awesome-freedesktop"]
 	path = config/awesome/submodules/awesome-freedesktop
 	url = https://github.com/terceiro/awesome-freedesktop.git
+[submodule "janus/snipmate-snippets"]
+	path = janus/my-snippets
+	url = git@github.com:tv/snipmate-snippets.git
