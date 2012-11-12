@@ -10,3 +10,6 @@
 [submodule "janus/snipmate-snippets"]
 	path = janus/my-snippets
 	url = git@github.com:tv/snipmate-snippets.git
+[submodule "janus/vimux"]
+	path = janus/vimux
+	url = https://github.com/benmills/vimux.git
