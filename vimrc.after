@@ -44,3 +44,10 @@ noremap  <Left> ""
 noremap! <Left> <Esc>
 noremap  <Right> ""
 noremap! <Right> <Esc>
+
+let g:VimuxOrientation="h"
+let g:VimuxHeight=32
+
+map <leader>r :call VimuxRunCommand("
+map <leader>rc :call VimuxRunCommand("testacular-run")<CR>
+map <leader>rm :call VimuxRunCommand("clear; NODE_ENV=testing mocha " . bufname("%"))<CR>
