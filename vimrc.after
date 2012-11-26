@@ -51,3 +51,9 @@ let g:VimuxHeight=32
 map <leader>r :call VimuxRunCommand("
 map <leader>rc :call VimuxRunCommand("testacular-run")<CR>
 map <leader>rm :call VimuxRunCommand("clear; NODE_ENV=testing mocha " . bufname("%"))<CR>
+map <leader>m :call VimuxRunCommand("make")<CR>
+
+nmap <leader>a= :Tabularize /=<CR>
+vmap <leader>a= :Tabularize /=<CR>
+nmap <leader>a: :Tabularize /:<CR>
+vmap <leader>a: :Tabularize /:<CR>

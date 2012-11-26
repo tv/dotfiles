@@ -13,3 +13,6 @@
 [submodule "janus/vimux"]
 	path = janus/vimux
 	url = https://github.com/benmills/vimux.git
+[submodule "janus/tabular"]
+	path = janus/tabular
+	url = https://github.com/godlygeek/tabular.git
