@@ -16,3 +16,9 @@
 [submodule "janus/tabular"]
 	path = janus/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "prezto"]
+	path = prezto
+	url = https://github.com/sorin-ionescu/prezto.git
+[submodule "janus/CSScomb"]
+	path = janus/CSScomb
+	url = https://github.com/miripiruni/CSScomb-for-Vim.git

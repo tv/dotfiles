@@ -48,6 +48,9 @@ noremap! <Right> <Esc>
 let g:VimuxOrientation="h"
 let g:VimuxHeight=32
 
+set encoding=utf-8
+set fileencoding=utf-8
+
 map <leader>r :call VimuxRunCommand("
 map <leader>rc :call VimuxRunCommand("testacular-run")<CR>
 map <leader>rm :call VimuxRunCommand("clear; NODE_ENV=testing mocha " . bufname("%"))<CR>
